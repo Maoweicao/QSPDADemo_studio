@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/pdasdk-nozxing.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/pdasdk-nozxing.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

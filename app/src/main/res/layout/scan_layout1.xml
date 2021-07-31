@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.47"
+        android:text="1234567890" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_printText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印文字"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_printBarcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印一维码"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_printQRcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印二维码"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_printImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="打印图片"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_scan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="扫描"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
